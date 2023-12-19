@@ -1,0 +1,91 @@
+.heroSection {
+    max-width: 80.0625rem;
+    height: calc(100vh - 4.5rem);
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.heroSection .left {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+}
+
+.heroSection .left h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 6.75rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 6.375rem;
+    /* 94.444% */
+}
+
+.heroSection .left p {
+    width: 25.25rem;
+    height: 5.6875rem;
+    color: var(--GRAY, #5A5959);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.heroSection .left .heroBtn {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.heroSection .left .heroBtn button {
+    display: flex;
+    padding: 0.375rem 1rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    background: #D01C28;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+.heroSection .left .heroBtn button:nth-child(2) {
+    border: 1px solid #5A5959;
+    color: #5A5959;
+    background-color: transparent;
+}
+
+.heroSection .left .availibleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.heroSection .left .availibleContainer p {
+    color: var(--GRAY, #5A5959);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 1.1875rem;
+}
+
+.heroSection .left .availibleContainer .icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.heroSection .left .availibleContainer .icons img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.heroSection .right img {
+    width: 33.125rem;
+    height: 30.44138rem;
+}

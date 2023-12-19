@@ -1,0 +1,27 @@
+.heroSection {
+    padding-top: 4.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.31rem;
+    margin: 0 auto;
+    max-width: 78.8125rem;
+}
+
+.heroSection h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.heroSection p {
+    width: 60.9375rem;
+    color: var(--GRAY, #5A5959);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
